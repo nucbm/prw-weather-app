@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 const logger = require('morgan');
 const axios = require('axios');
-const apiKey = '880bd14b446f9609cb5ca3738cba3b60';
+
+const apiKey = 'your-key-here';
 
 app.use(logger('dev'));
 
